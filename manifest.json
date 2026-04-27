@@ -1,0 +1,9 @@
+{
+  "id": "bookvault-sync",
+  "name": "BookVault Sync",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.0",
+  "description": "Sync Douban read books and WeRead highlights into an Obsidian reading vault.",
+  "author": "Kaltgeist",
+  "isDesktopOnly": true
+}

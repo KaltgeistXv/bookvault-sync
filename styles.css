@@ -1,0 +1,226 @@
+.bookvault-status {
+  padding: 12px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.bookvault-danger {
+  color: var(--text-error);
+}
+
+.bookvault-ok {
+  color: var(--text-success);
+}
+
+.bookvault-folder-list {
+  max-height: 420px;
+  overflow-y: auto;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  margin-top: 12px;
+}
+
+.bookvault-folder-option {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--background-modifier-border);
+  cursor: pointer;
+}
+
+.bookvault-folder-option:hover {
+  background: var(--background-modifier-hover);
+}
+
+
+.bookvault-folder-search {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+.bookvault-folder-actions {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.bookvault-folder-custom {
+  font-weight: 600;
+  color: var(--text-accent);
+}
+
+.bookvault-folder-hint,
+.bookvault-folder-empty {
+  color: var(--text-muted);
+  font-size: 13px;
+  padding: 8px 0;
+}
+
+
+/* Settings UX */
+.bookvault-settings {
+  max-width: 880px;
+}
+
+.bookvault-hero {
+  padding: 18px 20px;
+  margin: 8px 0 18px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 14px;
+  background: var(--background-secondary);
+}
+
+.bookvault-hero h2 {
+  margin: 0 0 6px;
+  font-size: 24px;
+}
+
+.bookvault-hero p {
+  margin: 0;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.bookvault-section {
+  padding: 16px 18px;
+  margin: 14px 0;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 14px;
+  background: var(--background-primary);
+}
+
+.bookvault-section-header {
+  margin-bottom: 10px;
+}
+
+.bookvault-section-header h3 {
+  margin: 0 0 4px;
+  font-size: 17px;
+}
+
+.bookvault-section-header p {
+  margin: 0;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+.bookvault-path-preview {
+  margin-top: 12px;
+  padding: 12px;
+  border-radius: 10px;
+  background: var(--background-secondary);
+}
+
+.bookvault-path-row {
+  display: flex;
+  gap: 12px;
+  padding: 4px 0;
+  align-items: flex-start;
+}
+
+.bookvault-path-label {
+  width: 72px;
+  flex: 0 0 72px;
+  color: var(--text-muted);
+}
+
+.bookvault-path-value {
+  word-break: break-all;
+  font-family: var(--font-monospace);
+  font-size: 12px;
+}
+
+.bookvault-login-grid,
+.bookvault-sync-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.bookvault-login-card,
+.bookvault-sync-card {
+  padding: 14px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 12px;
+  background: var(--background-secondary);
+}
+
+.bookvault-login-card h4,
+.bookvault-sync-card h4 {
+  margin: 0;
+  font-size: 15px;
+}
+
+.bookvault-login-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.bookvault-badge {
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.bookvault-badge-ok {
+  color: var(--text-success);
+  background: color-mix(in srgb, var(--text-success) 12%, transparent);
+}
+
+.bookvault-badge-warn {
+  color: var(--text-error);
+  background: color-mix(in srgb, var(--text-error) 12%, transparent);
+}
+
+.bookvault-muted {
+  margin: 8px 0 12px;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+.bookvault-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.bookvault-sync-card button {
+  width: 100%;
+}
+
+
+.bookvault-easter-egg {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 10px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  color: var(--text-muted);
+  background: var(--background-primary);
+  border: 1px dashed var(--background-modifier-border);
+  font-size: 12px;
+  user-select: none;
+}
+
+.bookvault-easter-egg:hover {
+  color: var(--text-accent);
+  border-color: var(--text-accent);
+}
+
+
+.bookvault-easter-egg {
+  gap: 6px;
+  line-height: 1.4;
+}
+
+.bookvault-easter-egg span {
+  display: inline-flex;
+  align-items: center;
+}
